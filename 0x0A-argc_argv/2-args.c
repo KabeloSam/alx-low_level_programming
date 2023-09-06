@@ -8,7 +8,10 @@
 
 int main(int argc, char *argv[])
 {
-(void) argc;
-printf("%s\n", argv);
+int i;
+int counter_arg = argc;
+
+for (i = 0 ; i < counter_arg ; i++)
+printf("%s\n", argv[i]);
 return (0);
 }
