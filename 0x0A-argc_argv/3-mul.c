@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 int num1, num2, multi_of;
 int counter_arg = argc;
-if(counter_arg != 3)
+if (counter_arg != 3)
 {
 printf("Error\n");
 return (1);
