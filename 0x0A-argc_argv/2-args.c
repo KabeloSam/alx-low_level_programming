@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main-prints the number of arguments passed into it
+*main-prints all arguments it receives
 *@argc:stores number of arguments
 *@argv:stores arguments entered
 *Return:0
@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-(void) argv;
-printf("%d\n", argc -1);
+(void) argc;
+printf("%s\n", argv);
 return (0);
 }
