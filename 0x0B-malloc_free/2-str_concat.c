@@ -26,8 +26,14 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	new_str = strcat(new_str, s1);
-	new_str = strcat(new_str, s2);
+	if(s1 != NULL)
+	{
+		new_str = strcat(new_str, s1);
+	}
+	if (s1 != NULL)
+	{
+		new_str = strcat(new_str, s2);
+	}
 
 	return (new_str);
 }
